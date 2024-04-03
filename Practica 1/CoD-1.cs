@@ -8,5 +8,5 @@ static void DisplaySum()
     double num2 = Convert.ToDouble(Console.ReadLine());
 
     double result = CalculateSum(num1, num2);
-    Console.WriteLine($"Сумма введенных чисел: {result}");
+    Console.WriteLine($"Сумма введенных чиселл: {result}");
 }
