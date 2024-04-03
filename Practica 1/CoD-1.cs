@@ -1,8 +1,10 @@
-<<<<<<< HEAD
+
 using System;
 
 class Program
 {
+    // Функция для вычисления суммы двух чиселaa
+    return a + b;
     static void Main(string[] args)
     {
         GreetUser();
