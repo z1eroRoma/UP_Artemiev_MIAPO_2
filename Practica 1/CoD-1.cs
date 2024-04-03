@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System;
 
 class Program
@@ -36,3 +37,11 @@ class Program
         double result = CalculateSum(num1, num2);
         Console.WriteLine($"Сумма введенных чисел: {result}");
     }
+
+    static double CalculateSum(double a, double b)
+    {
+        // Функция для вычисления суммы двух чисел
+        return a + b;
+    }
+}
+
