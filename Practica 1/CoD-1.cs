@@ -1,13 +1,12 @@
-static void GreetUser()
+static void DisplaySum()
 {
-    // Функция приветствия пользователя
-    Console.WriteLine("Привет! Добро пожаловать в наше приложение.");
-}
+    // Функция для запроса двух чисел у пользователя и вывода их суммы
+    Console.Write("Введите первое число: ");
+    double num1 = Convert.ToDouble(Console.ReadLine());
 
-static string GetUserName()
-{
-    // Функция для запроса имени пользователя
-    Console.Write("Пожалуйста, введите ваше имя2: ");
-    string name = Console.ReadLine();
-    return name;
+    Console.Write("Введите второе число: ");
+    double num2 = Convert.ToDouble(Console.ReadLine());
+
+    double result = CalculateSum(num1, num2);
+    Console.WriteLine($"Сумма введенных чисел: {result}");
 }
