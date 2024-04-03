@@ -38,3 +38,4 @@ static void DisplaySum()
     Console.WriteLine($"Сумма введенных чисел: {result}");
 }
 
+    
